@@ -15,6 +15,8 @@ import { ProfessionalContactsComponent } from './components/resume/professional-
 import { PersonalProjectsComponent } from './components/about-me/personal-projects/personal-projects.component';
 import { MusingsComponent } from './components/musings/musings.component';
 import { MusingTemplateComponent } from './components/musings/musing-template/musing-template.component';
+import { PersonalInfoComponent } from './components/about-me/personal-info/personal-info.component';
+import { PersonalBioComponent } from './components/about-me/personal-bio/personal-bio.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { MusingTemplateComponent } from './components/musings/musing-template/mu
     ProfessionalContactsComponent,
     PersonalProjectsComponent,
     MusingsComponent,
-    MusingTemplateComponent
+    MusingTemplateComponent,
+    PersonalInfoComponent,
+    PersonalBioComponent
   ],
   imports: [
     BrowserModule,
