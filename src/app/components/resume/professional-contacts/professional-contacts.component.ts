@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-professional-contacts',
+  selector: 'app-reusme-professional-contacts',
   templateUrl: './professional-contacts.component.html',
   styleUrls: ['./professional-contacts.component.scss']
 })

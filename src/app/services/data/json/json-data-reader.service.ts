@@ -14,6 +14,7 @@ export class JsonDataReaderService {
   }
 
   public getJSON(): Observable<any> {
-    return this.http.get("../../../data/json/sample.json");
+    //return this.http.get("../../../data/json/sample.json");
+    return this.http.get("https://github.com/nodonoghue/PersonalPage/blob/feature/json-file-reader/src/app/data/json/sample.json");
   }
 }
