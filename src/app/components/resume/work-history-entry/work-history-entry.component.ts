@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-work-history-entry',
+  selector: 'app-resume-work-history-entry',
   templateUrl: './work-history-entry.component.html',
   styleUrls: ['./work-history-entry.component.scss']
 })

@@ -17,6 +17,7 @@ import { MusingsComponent } from './components/musings/musings.component';
 import { MusingTemplateComponent } from './components/musings/musing-template/musing-template.component';
 import { PersonalInfoComponent } from './components/about-me/personal-info/personal-info.component';
 import { PersonalBioComponent } from './components/about-me/personal-bio/personal-bio.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PersonalBioComponent } from './components/about-me/personal-bio/persona
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

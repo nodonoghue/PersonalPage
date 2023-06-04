@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-personal-bio',
+  selector: 'app-about-me-personal-bio',
   templateUrl: './personal-bio.component.html',
   styleUrls: ['./personal-bio.component.scss']
 })
