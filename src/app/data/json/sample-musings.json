@@ -1,0 +1,32 @@
+{
+    "Musings": [
+        {
+            "Title": "Test Musing",
+            "SubTitle": "Only a test, nothing more.",
+            "Description": "A sample musing to debug and finetune the data structure and data binding",
+            "DateWritten": "06/02/2023",
+            "Paragraphs": [
+                {
+                    "Text": "The first paragraph."
+                },
+                {
+                    "Text": "The second paragraph."
+                }
+            ]
+        },
+        {
+            "Title": "Another Test Musing",
+            "SubTitle": "Just another test.",
+            "DateWritten": "06/04/2023",
+            "Description": "A second sample musing, need to parse the collections properly.",
+            "Paragraphs": [
+                {
+                    "Text": "The first paragraph of second musing."
+                },
+                {
+                    "Text": "The second paragraph of second musing."
+                }
+            ]
+        }
+    ]
+}

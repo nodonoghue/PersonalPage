@@ -10,6 +10,6 @@ export class MusingTemplateComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
 
+  }
 }

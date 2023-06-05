@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'PersonalPage';
 
   constructor(private jsonService: JsonDataReaderService) {
-    this.jsonService.getJSON();
+    this.jsonService.getJsonSample();
   }
 }
