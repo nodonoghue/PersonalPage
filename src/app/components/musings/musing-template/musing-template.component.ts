@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { JsonDataReaderService } from '../../../services/data/json/json-data-reader.service';
 @Component({
   selector: 'app-musing-template',
   templateUrl: './musing-template.component.html',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MusingTemplateComponent implements OnInit {
 
-  constructor() { }
+  constructor(private jsonReader: JsonDataReaderService) {
+
+  }
+
+  musings: any;
 
   ngOnInit(): void {
-
+    this.musings = this.jsonReader.getMusingsJson();
   }
 }
