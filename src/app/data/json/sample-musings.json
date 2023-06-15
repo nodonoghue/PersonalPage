@@ -1,30 +1,58 @@
 {
     "Musings": [
         {
-            "Title": "Test Musing",
-            "SubTitle": "Only a test, nothing more.",
-            "Description": "A sample musing to debug and finetune the data structure and data binding",
-            "DateWritten": "06/02/2023",
-            "Paragraphs": [
+            "title": "Test Musing",
+            "subtitle": "Only a test, nothing more.",
+            "description": "A sample musing to debug and finetune the data structure and data binding",
+            "dateWritten": "06/02/2023",
+            "paragraphs": [
                 {
-                    "Text": "The first paragraph."
+                    "text": "The first paragraph."
                 },
                 {
-                    "Text": "The second paragraph."
+                    "text": "The second paragraph."
                 }
             ]
         },
         {
-            "Title": "Another Test Musing",
-            "SubTitle": "Just another test.",
-            "DateWritten": "06/04/2023",
-            "Description": "A second sample musing, need to parse the collections properly.",
-            "Paragraphs": [
+            "title": "Another Test Musing",
+            "subTitle": "Just another test.",
+            "dateWritten": "06/04/2023",
+            "description": "A second sample musing, need to parse the collections properly.",
+            "paragraphs": [
                 {
-                    "Text": "The first paragraph of second musing."
+                    "text": "The first paragraph of second musing."
                 },
                 {
-                    "Text": "The second paragraph of second musing."
+                    "text": "The second paragraph of second musing."
+                }
+            ]
+        },
+        {
+            "title": "A Musing for Nathaniel",
+            "subTitle": "Just another test.",
+            "dateWritten": "06/04/2023",
+            "description": "A second sample musing, need to parse the collections properly.",
+            "paragraphs": [
+                {
+                    "text": "The first paragraph of second musing."
+                },
+                {
+                    "text": "The second paragraph of second musing."
+                }
+            ]
+        },
+        {
+            "title": "A Musing for Isaac",
+            "subTitle": "Just another test.",
+            "dateWritten": "06/04/2023",
+            "description": "A second sample musing, need to parse the collections properly.",
+            "paragraphs": [
+                {
+                    "text": "The first paragraph of second musing."
+                },
+                {
+                    "text": "The second paragraph of second musing."
                 }
             ]
         }
