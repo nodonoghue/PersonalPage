@@ -1,6 +1,7 @@
 {
     "Musings": [
         {
+            "id": 0,
             "title": "Test Musing",
             "subtitle": "Only a test, nothing more.",
             "description": "A sample musing to debug and finetune the data structure and data binding",
@@ -15,6 +16,7 @@
             ]
         },
         {
+            "id":1,
             "title": "Another Test Musing",
             "subTitle": "Just another test.",
             "dateWritten": "06/04/2023",
@@ -29,6 +31,7 @@
             ]
         },
         {
+            "id":2,
             "title": "A Musing for Nathaniel",
             "subTitle": "Just another test.",
             "dateWritten": "06/04/2023",
@@ -43,6 +46,7 @@
             ]
         },
         {
+            "id":3,
             "title": "A Musing for Isaac",
             "subTitle": "Just another test.",
             "dateWritten": "06/04/2023",
