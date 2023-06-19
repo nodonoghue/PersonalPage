@@ -3,5 +3,6 @@
 <!--Main musings page will have a list of musings, ordered by author date descending.  Link on the title, with a property for a brief description of the subject matter, think tweet size-->
 
 <div *ngFor="let musing of musingJson.Musings" style="padding: 5px">
-    {{musing.title}}
+    {{musing.title}} <br />
+    {{musing.description}}
 </div>
